@@ -2,7 +2,7 @@
 
 Create an automation framework and necessary automation scripts using Selenium-Framework that would do the following:
 
-### Functionalities to Implement:
+#### Functionalities to Implement:
 
 1) Login to newegg using the username ctschallenge18@gmail.com and password Challenge18, search and add to cart items listed in the attached xls and validate that the item was added correctly.
 
@@ -19,7 +19,7 @@ Create an automation framework and necessary automation scripts using Selenium-F
 
 7) Complete the password reset process
 
-### Approach Taken:
+#### Approach Taken:
 
 Selenium Page Object Model is used to implement this testing method. Five different classes-packages are created:
 
