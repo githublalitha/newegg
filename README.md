@@ -18,3 +18,13 @@ Create an automation framework and necessary automation scripts using Selenium-F
 (password for the email ID is : 2018@Challenge
 
 7) Complete the password reset process
+
+### Approach Taken:
+
+Selenium Page Object Model is used to implement this testing method. Five different classes-packages are created:
+    a) LoginPage
+    b) searchAdd
+    c) cartModify
+    d) gmailPasswordReset
+    e) passwordForget
+ All these functionalities are tested in the "Validate" module
