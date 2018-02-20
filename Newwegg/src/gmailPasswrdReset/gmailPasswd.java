@@ -14,8 +14,8 @@ public class gmailPasswd {
 	/*logging to gmail account to retrieve password link */
 	public void gmaillogin(String loginid) throws InterruptedException
 	{
-		driver.get("https://www.gmail.com/");
-		WebElement sign = driver.findElement(By.xpath("/html/body/nav/div/a[2]"));
+	    driver.get("https://www.gmail.com/");
+	    WebElement sign = driver.findElement(By.xpath("/html/body/nav/div/a[2]"));
 	    sign.click();
 	    WebElement mailID = driver.findElement(By.xpath("//*[@id=\"identifierId\"]"));
 	    mailID.sendKeys(loginid);
@@ -32,7 +32,7 @@ public class gmailPasswd {
 	/* function to navigate from gmail to newegg for new password change  */
 	public void passwdLink() throws InterruptedException
 	{
-		WebElement inboxsrch = driver.findElement(By.xpath("//*[@id=\"gbqfq\"]"));
+	    WebElement inboxsrch = driver.findElement(By.xpath("//*[@id=\"gbqfq\"]"));
 	    inboxsrch.sendKeys("newegg password");
 	    Thread.sleep(3000);
 	    WebElement srchkey = driver.findElement(By.xpath("//*[@id=\"gbqfb\"]/span"));
