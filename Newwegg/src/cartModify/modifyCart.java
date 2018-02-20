@@ -15,15 +15,15 @@ public class modifyCart {
 	/*checking total price of 3 items in cart*/
 	public void checkTotalPrice()
 	{
-		WebElement totalprice = driver.findElement(By.xpath("//*[@id=\"liMiniCart\"]/a/ins"));
+	    WebElement totalprice = driver.findElement(By.xpath("//*[@id=\"liMiniCart\"]/a/ins"));
 	    String total = totalprice.getText();
 	    System.out.println(total);
 	}
 	/* removing one item from cart*/
 	public void removeItem() 
 	{
-		WebElement removeitem = driver.findElement(By.xpath("//*[@id=\"79-261-688.1.0.0\"]"));
-		removeitem.click();
+            WebElement removeitem = driver.findElement(By.xpath("//*[@id=\"79-261-688.1.0.0\"]"));
+	    removeitem.click();
 	    WebElement removeselected = driver.findElement(By.xpath("//*[@id=\"removeFromCart\"]"));
 	    removeselected.click();
 	}
