@@ -16,7 +16,7 @@ public class forgetPasswrd {
 	public void logout() throws InterruptedException
 	{
 	    WebElement myaccount = driver.findElement(By.xpath("//*[@id=\"usaSite\"]/a/ins"));
-		myaccount.click();
+	    myaccount.click();
 	    WebElement logout = driver.findElement(By.xpath("//*[@id=\"usaSite\"]/div/div/ul/li[4]/a"));
 	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", logout);
 	    Thread.sleep(5000);
@@ -26,8 +26,8 @@ public class forgetPasswrd {
 	
 	public void passwrdToemail(String loginid) throws InterruptedException
 	{
-		WebElement againlogin = driver.findElement(By.xpath("//*[@id=\"usaSite\"]/a"));
-		againlogin.click();
+	    WebElement againlogin = driver.findElement(By.xpath("//*[@id=\"usaSite\"]/a"));
+	    againlogin.click();
 	    WebElement username2 = driver.findElement(By.id("UserName"));
 	    username2.sendKeys(loginid);
 	    WebElement forgetpswrd = driver.findElement(By.xpath("//*[@id=\"QuickLinks\"]/dd[1]/form/table/tbody/tr[5]/td[2]/span/a"));
