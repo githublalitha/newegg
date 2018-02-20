@@ -22,9 +22,15 @@ Create an automation framework and necessary automation scripts using Selenium-F
 ### Approach Taken:
 
 Selenium Page Object Model is used to implement this testing method. Five different classes-packages are created:
+
     - a) LoginPage
+    
     - b) searchAdd
+    
     - c) cartModify
+    
     - d) gmailPasswordReset
+    
     - e) passwordForget
+    
  All these functionalities are tested in the "Validate" module
