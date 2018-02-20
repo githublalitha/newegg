@@ -1,8 +1,6 @@
-# newegg
+# NewEgg Web Testing using Selenium JAVA
 
-This project tes
-
-Create an automation framework and necessary automation scripts using SeleniumFramework that would do the following:
+Create an automation framework and necessary automation scripts using Selenium-Framework that would do the following:
 
 Login to newegg using the username ctschallenge18@gmail.com and password Challenge18, search and add to cart items listed in the attached xls and validate that the item was added correctly.
 
@@ -15,7 +13,7 @@ Logout of the account.
 Automate the testing for password reset flow on newegg.com - use the user ID - ctschallenge18@gmail.com as user ID on newegg.com and click 
 on forgot password. Enter the email as ctschallenge18@gmail.com.
 
- 6.  You will receive an email to the above given email ID. the automation script should login into this email and do the steps to reset the password 
+6.  You will receive an email to the above given email ID. the automation script should login into this email and do the steps to reset the password 
 (password for the email ID is : 2018@Challenge
 
 7. Complete the password reset process
