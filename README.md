@@ -1,4 +1,4 @@
-## NewEgg Web Testing using Selenium JAVA
+### NewEgg Web Testing using Selenium JAVA
 
 Create an automation framework and necessary automation scripts using Selenium-Framework that would do the following:
 
